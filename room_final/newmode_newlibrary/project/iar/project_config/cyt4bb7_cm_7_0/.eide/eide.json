@@ -1,0 +1,1367 @@
+{
+  "name": "cyt4bb7_cm_7_0",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "folders": [
+      {
+        "name": "code",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../code/controllogic.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/controllogic.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/encode.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/encode.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/GPS.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/GPS.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/Graph.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/Graph.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/imu_660.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/imu_660.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/Init.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/Init.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/key.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/key.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/motor.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/motor.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/overall.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/overall.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/PID.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/PID.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/remote.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/remote.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/servo.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/servo.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../code/本文件夹作用.txt"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "doc",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../libraries/doc/GPL3_permission_statement.txt"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/doc/version.txt"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "sdk",
+        "files": [],
+        "folders": [
+          {
+            "name": "hdr",
+            "files": [
+              {
+                "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cy_project.h"
+              }
+            ],
+            "folders": [
+              {
+                "name": "cmsis",
+                "files": [],
+                "folders": [
+                  {
+                    "name": "dsp",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/dsp/arm_common_tables.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/dsp/arm_const_structs.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/dsp/arm_helium_utils.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/dsp/arm_math.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/dsp/arm_mve_tables.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/dsp/arm_vec_math.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "include",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/include/cachel1_armv7.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/include/cmsis_compiler.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/include/core_cm0plus.h"
+                      }
+                    ],
+                    "folders": []
+                  }
+                ]
+              },
+              {
+                "name": "rev_b",
+                "files": [
+                  {
+                    "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/bb_bsp_tviibh4m.h"
+                  },
+                  {
+                    "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/bb_bsp_tviibh4m_revb.h"
+                  },
+                  {
+                    "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/cy_device_headers.h"
+                  },
+                  {
+                    "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/cyt4bb_config.h"
+                  }
+                ],
+                "folders": [
+                  {
+                    "name": "ip",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_backup_v3.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_canfd.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_coredefines.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_cpuss.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_crypto.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_dmac.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_dw.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_efuse_data_v2.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_efuse_v2.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_eth_v2.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_evtgen.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_fault.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_flashc.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_gpio_v3.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_headers.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_hsiom_v3.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_i2s_v2.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_ipc.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_lin.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_pass.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_peri_ms_v3.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_peri_pclk_v3.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_peri_v3.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_prot.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_scb_v2.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_sdhc.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_sflash_v2.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_smartio_v3.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_smif_v2.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_srss_v3.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip/cyip_tcpwm_v2.h"
+                      }
+                    ],
+                    "folders": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "src",
+            "files": [],
+            "folders": [
+              {
+                "name": "drivers",
+                "files": [],
+                "folders": [
+                  {
+                    "name": "adc",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/adc/cy_adc.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/adc/cy_adc.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "audioss",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/audioss/cy_i2s.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/audioss/cy_i2s.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "canfd",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/canfd/cy_canfd.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/canfd/cy_canfd.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "cpu",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/cpu/cy_cpu.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/cpu/cy_cpu.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "crypto",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/crypto/cy_crypto.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/crypto/cy_crypto_common.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/crypto/cy_crypto_config.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/crypto/cy_crypto_config.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/crypto/cy_crypto_server.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "dma",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/dma/cy_mdma.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/dma/cy_mdma.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/dma/cy_pdma.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/dma/cy_pdma.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "ethernet",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/cdn_errno.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/cdn_stdint.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/cedi.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/cps_v2.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/cy_ethif.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/cy_ethif.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/edd.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/edd_int.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/edd_rx.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/edd_tx.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/emac_regs.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/emac_regs_macro.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/ethernet/log.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "evtgen",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/evtgen/cy_evtgen.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/evtgen/cy_evtgen.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "flash",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/flash/cy_flash.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/flash/cy_flash.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "gpio",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/gpio/cy_gpio.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/gpio/cy_gpio.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "ipc",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/ipc/cy_ipc_config.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/ipc/cy_ipc_drv.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/ipc/cy_ipc_drv.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/ipc/cy_ipc_pipe.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/ipc/cy_ipc_pipe.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/ipc/cy_ipc_sema.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/ipc/cy_ipc_sema.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "lin",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/lin/cy_lin.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/lin/cy_lin.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "lvd",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/lvd/cy_lvd.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/lvd/cy_lvd.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "mcwdt",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/mcwdt/cy_mcwdt.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/mcwdt/cy_mcwdt.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "mpu",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/mpu/cy_mpu.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/mpu/cy_mpu.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "prot",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/prot/cy_prot.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/prot/cy_prot.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "scb",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_common.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_common.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_ezi2c.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_ezi2c.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_i2c.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_i2c.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_spi.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_spi.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_uart.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/scb/cy_scb_uart.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "sd_host",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/sd_host/cy_sd_host.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/sd_host/cy_sd_host.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "smartio",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/smartio/cy_smartio.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/smartio/cy_smartio.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "smif",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/smif/common/cy_smif.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/smif/common/cy_smif.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/smif/common/cy_smif_memslot.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/smif/common/cy_smif_memslot.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/smif/ver2/cy_smif_ver_specific.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/smif/ver2/cy_smif_ver_specific.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "srom",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/srom/cy_srom.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/srom/cy_srom.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "sysclk",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/sysclk/cy_sysclk.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/sysclk/cy_sysclk.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "sysflt",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/sysflt/cy_sysflt.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/sysflt/cy_sysflt.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/sysflt/cy_sysflt_config.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "sysint",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/sysint/cy_sysint.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/sysint/cy_sysint.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "syslib",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/syslib/cy_syslib.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/syslib/cy_syslib.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/syslib/iar/cy_syslib_iar.s"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "syspm",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/syspm/cy_syspm.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/syspm/cy_syspm.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "sysreghc",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/sysreghc/cy_sysreghc.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/sysreghc/cy_sysreghc.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "sysreset",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/sysreset/cy_sysreset.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/sysreset/cy_sysreset.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "sysrtc",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/sysrtc/cy_sysrtc.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/sysrtc/cy_sysrtc.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "systick",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/systick/cy_systick.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/systick/cy_systick.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "syswdt",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/syswdt/cy_syswdt.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/syswdt/cy_syswdt.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "tcpwm",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm_counter.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm_counter.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm_pwm.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm_pwm.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm_quaddec.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm_quaddec.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm_sr.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/tcpwm/cy_tcpwm_sr.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "trigmux",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/trigmux/cy_trigmux.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers/trigmux/cy_trigmux.h"
+                      }
+                    ],
+                    "folders": []
+                  }
+                ]
+              },
+              {
+                "name": "interrupts",
+                "files": [],
+                "folders": [
+                  {
+                    "name": "rev_b",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/interrupts/cy_interrupt_map.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/interrupts/cy_interrupt_map_cm7_0.h"
+                      }
+                    ],
+                    "folders": []
+                  }
+                ]
+              },
+              {
+                "name": "mw",
+                "files": [],
+                "folders": [
+                  {
+                    "name": "button",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/mw/button/cy_button.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/mw/button/cy_button.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "eth_phy",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/eth_phy/cy_dp83867.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/eth_phy/cy_dp83867.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "flash",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/mw/flash/cy_mw_flash.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/mw/flash/cy_mw_flash.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "power",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/power/cy_power.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/power/cy_power.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "semihosting",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/mw/semihosting/cy_semihosting.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/mw/semihosting/cy_semihosting.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "smif_mem",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_device_common.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_device_common.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_hb_flash.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_hb_flash.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_s25fl.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_s25fl.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_s25fs.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_s25fs.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_semp.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw/smif_mem/cy_smif_semp.h"
+                      }
+                    ],
+                    "folders": []
+                  },
+                  {
+                    "name": "sw_timer",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/mw/sw_timer/cy_sw_tmr.c"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/mw/sw_timer/cy_sw_tmr.h"
+                      }
+                    ],
+                    "folders": []
+                  }
+                ]
+              },
+              {
+                "name": "startup",
+                "files": [
+                  {
+                    "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/startup/startup.c"
+                  },
+                  {
+                    "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/startup/iar/startup_cm7.s"
+                  },
+                  {
+                    "path": "${PROJ_DIR}/../../../libraries/sdk/common/src/startup/startup_customize.h"
+                  }
+                ],
+                "folders": []
+              },
+              {
+                "name": "system",
+                "files": [],
+                "folders": [
+                  {
+                    "name": "rev_b",
+                    "files": [
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/system/system_cyt4bb.h"
+                      },
+                      {
+                        "path": "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/system/system_tviibh4m_cm7.c"
+                      }
+                    ],
+                    "folders": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../user/cm7_0_isr.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../user/main_cm7_0.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "zf_common",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_clock.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_clock.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_debug.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_debug.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_fifo.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_fifo.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_font.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_font.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_function.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_function.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_headfile.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_interrupt.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_interrupt.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_common/zf_common_typedef.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "zf_components",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_components/seekfree_assistant.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_components/seekfree_assistant.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_components/seekfree_assistant_interface.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_components/seekfree_assistant_interface.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "zf_device",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_absolute_encoder.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_absolute_encoder.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_bluetooth_ch9141.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_bluetooth_ch9141.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_config.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_dl1a.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_dl1a.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_dl1b.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_dl1b.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_gnss.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_gnss.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_icm20602.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_icm20602.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_imu660ra.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_imu660ra.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_imu963ra.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_imu963ra.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_ips114.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_ips114.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_ips200.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_ips200.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_key.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_key.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_mpu6050.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_mpu6050.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_oled.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_oled.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_tft180.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_tft180.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_tsl1401.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_tsl1401.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_type.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_type.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_uart_receiver.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_uart_receiver.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_virtual_oscilloscope.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_virtual_oscilloscope.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_wifi_spi.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_wifi_spi.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_wifi_uart.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_wifi_uart.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_wireless_uart.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_device/zf_device_wireless_uart.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "zf_driver",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_adc.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_adc.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_delay.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_delay.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_dma.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_dma.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_encoder.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_encoder.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_exti.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_exti.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_flash.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_flash.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_gpio.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_gpio.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_ipc.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_ipc.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_pit.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_pit.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_pwm.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_pwm.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_soft_iic.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_soft_iic.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_soft_spi.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_soft_spi.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_spi.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_spi.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_timer.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_timer.h"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_uart.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../libraries/zf_driver/zf_driver_uart.h"
+          }
+        ],
+        "folders": []
+      }
+    ],
+    "files": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "d74294c031cb9ae29a10eeb746af3447"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [],
+      "toolchain": "IAR_ARM",
+      "compileConfig": {
+        "cpuType": "Cortex-M7",
+        "floatingPointHardware": "double",
+        "scatterFilePath": "${PROJ_DIR}/../icf/linker_directives_tviibh.icf",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "Cypress",
+          "cpuName": "CYT4BB7CEB_M7_0"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "${PROJ_DIR}/../../../libraries/sdk/common/hdr",
+          "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/include",
+          "${PROJ_DIR}/../../../libraries/sdk/common/src/drivers",
+          "${PROJ_DIR}/../../../libraries/sdk/common/src/mw",
+          "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr",
+          "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/ip",
+          "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/hdr/mcureg",
+          "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src",
+          "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/interrupts",
+          "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/mw",
+          "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers",
+          "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/system",
+          "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/dsp",
+          "${PROJ_DIR}/../../../libraries/zf_common",
+          "${PROJ_DIR}/../../../libraries/zf_driver",
+          "${PROJ_DIR}/../../../libraries/zf_device",
+          "${PROJ_DIR}/../../../libraries/zf_components",
+          "${PROJ_DIR}/../../user",
+          "${PROJ_DIR}/../../code"
+        ],
+        "libList": [],
+        "defineList": [
+          "tviibh4m",
+          "CYT4BB7CEE",
+          "CY_USE_PSVP=0",
+          "CY_MCU_rev_b",
+          "CPU_BOARD_REVB",
+          "CY_CORE_CM7_0",
+          "__ICACHE_PRESENT=1",
+          "__DCACHE_PRESENT=1"
+        ]
+      }
+    }
+  },
+  "version": "3.4"
+}

@@ -1,0 +1,39 @@
+{
+    "version": 1,
+    "beforeBuildTasks": [],
+    "afterBuildTasks": [],
+    "global": {
+        "endian-mode": "little",
+        "runtime-lib": "normal",
+        "printf-formatter": "auto",
+        "scanf-formatter": "auto",
+        "output-debug-info": "enable"
+    },
+    "c/cpp-compiler": {
+        "optimization": "low",
+        "destroy-cpp-static-object": true,
+        "language-c": "c99",
+        "language-conformance": "IAR-extensions",
+        "floating-point-semantics": "strict",
+        "misc-controls": ""
+    },
+    "asm-compiler": {
+        "case-sensitive-user-symbols": true,
+        "defines": []
+    },
+    "linker": {
+        "output-format": "elf",
+        "auto-search-runtime-lib": true,
+        "perform-cpp-virtual-func-elimination": "enable",
+        "config-defines": [
+            "_CORE_cm7_0_=0",
+            "_LINK_flash_=0"
+        ],
+        "LIB_FLAGS": [
+            "${PROJ_DIR}/../../../libraries/sdk/tviibh4m/src/drivers/crypto/libs/libcrypto_server_cm0plus_iar.a",
+            "${PROJ_DIR}/../../../libraries/zf_device/zf_device_config.a",
+            "${PROJ_DIR}/../../../libraries/sdk/common/hdr/cmsis/dsp/iar_cortexM7lf_math.a"
+        ],
+        "misc-controls": ""
+    }
+}

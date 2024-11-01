@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "zf_common_headfile.h": "c",
+        "overall.h": "c",
+        "imu_963.h": "c",
+        "zf_common_function.h": "c",
+        "math.h": "c"
+    }
+}

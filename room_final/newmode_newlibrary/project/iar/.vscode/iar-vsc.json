@@ -1,0 +1,39 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_0.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\cyt4bb7.eww": {
+      "configs": {
+        "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_1.ewp": "Debug"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_1.ewp"
+      }
+    },
+    "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_0.eww": {
+      "configs": {
+        "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_0.ewp": "Debug"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_0.ewp"
+      }
+    },
+    "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_1.eww": {
+      "configs": {},
+      "selected": {
+        "path": "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_1.ewp"
+      }
+    }
+  },
+  "workbench": {
+    "path": "D:\\program for com\\IAR_software"
+  },
+  "project": {
+    "path": "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_0.ewp"
+  },
+  "configs": {
+    "${workspaceFolder}\\project_config\\cyt4bb7_cm_0_plus.ewp": "Debug",
+    "${workspaceFolder}\\project_config\\cyt4bb7_cm_7_0.ewp": "Debug"
+  }
+}
